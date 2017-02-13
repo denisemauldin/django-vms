@@ -1,0 +1,212 @@
+[
+    {
+        "name": "Cashier",
+        "training": 1,
+        "shadowing": 3,
+        "desc": "Take the money. Be nice. That is all. "
+    },
+    {
+        "name": "Monitor",
+        "training": 1,
+        "shadowing": 3,
+        "desc": "Watch people. Tell an EC. Still get yelled at."
+    },
+    {
+        "name": "Event Coordinator",
+        "training": 1,
+        "shadowing": 9,
+        "desc": "Shadow: Cashier, Ambassador and Monitor. Never get it \"right.\" Have everyone hate you then hate you again for not showing up early to stay late for a party you maybe don\"t care about."
+    },
+    {
+        "name": "Ambassador",
+        "training": 1,
+        "shadowing": 3,
+        "desc": "Be nice to people. Show them around. Don\"t hit on them or try to make dates. "
+    },
+    {
+        "name": "Food Prep",
+        "training": 0,
+        "shadowing": 0,
+        "desc": "Prep food. Don\"t make attendees sick."
+    },
+    {
+        "name": "Library-Host",
+        "training": 1,
+        "shadowing": 0,
+        "desc": "I think... I mean, I don\"t really know. "
+    },
+    {
+        "name": "Librarian",
+        "training": 1,
+        "shadowing": 0,
+        "desc": "Check out materials. "
+    },
+    {
+        "name": "Setup",
+        "training": 0,
+        "shadowing": 0,
+        "desc": "Move stuff into place. Then be told it needs to go back over there. Nope, it should have been where it just was. Fuck it, you move it."
+    },
+    {
+        "name": "Staff",
+        "training": 1,
+        "shadowing": 0,
+        "desc": "Seriously... I have not a clue but you get hours."
+    },
+    {
+        "name": "Strike",
+        "training": 0,
+        "shadowing": 0,
+        "desc": "Hahahaahah.... I hope you like sleep dep, dipshit."
+    },
+    {
+        "name": "Host",
+        "training": 1,
+        "shadowing": 0,
+        "desc": "Set the tone for the party. "
+    },
+    {
+        "name": "Passport Guide",
+        "training": 1,
+        "shadowing": 0,
+        "desc": "Go to Passport meeting then go to another party and passport things."
+    },
+    {
+        "name": "Non-Event: Duster",
+        "training": 1,
+        "shadowing": 0,
+        "desc": "Go in once a week and clean everything."
+    },
+    {
+        "name": "Stocking",
+        "training": 1,
+        "shadowing": 0,
+        "desc": "Stock soda, candy & peanut dispensers, etc."
+    },
+    {
+        "name": "Office Minion",
+        "training": 1,
+        "shadowing": 0,
+        "desc": "Do office things, in the office."
+    },
+    {
+        "name": "Laundry Team",
+        "training": 1,
+        "shadowing": 0,
+        "desc": "Take laundry from the bins and run it through the washing machine and dryer. Wear gloves. "
+    },
+    {
+        "name": "MONITOR-TRANSITION STAFF",
+        "training": 1,
+        "shadowing": 3,
+        "desc": "Probably a monitor who strikes the party, but we\"re not sure."
+    },
+    {
+        "name": "Intro-Teacher",
+        "training": 1,
+        "shadowing": 0,
+        "desc": "Tell people the rules of CSPC. Try to not talk past 6:30 on Tuesday evening."
+    },
+    {
+        "name": "Intro-Cashier",
+        "training": 1,
+        "shadowing": 0,
+        "desc": "Deal with the paperwork for newbies."
+    },
+    {
+        "name": "Intro-Ambassador",
+        "training": 1,
+        "shadowing": 0,
+        "desc": "Ambassador the newbies."
+    },
+    {
+        "name": "Greeter",
+        "training": 1,
+        "shadowing": 0,
+        "desc": "Sort of like Ambassador but probably closer to the door. "
+    },
+    {
+        "name": "Non-Event:Parking Lot",
+        "training": 1,
+        "shadowing": 0,
+        "desc": "Keep it cleaned up, as much as one can for a property that has about a dozen people telling you what to do. "
+    },
+    {
+        "name": "Non-Event: Costo Prep",
+        "training": 1,
+        "shadowing": 0,
+        "desc": "Go to Costco"
+    },
+    {
+        "name": "Non-Event: Costco Intake",
+        "training": 1,
+        "shadowing": 0,
+        "desc": "put away groceries and sundries from Costco."
+    },
+    {
+        "name": "Kitchen Assistant",
+        "training": 1,
+        "shadowing": 0,
+        "desc": "Assist with food prep"
+    },
+    {
+        "name": "Kitchen Cleanup",
+        "training": 1,
+        "shadowing": 0,
+        "desc": "throw away the ranch dip that no one ate. wash the dishes and put them away."
+    },
+    {
+        "name": "DJ",
+        "training": 1,
+        "shadowing": 0,
+        "desc": "Plug in your iPod, load Pandora, go."
+    },
+    {
+        "name": "Door Staff",
+        "training": 1,
+        "shadowing": 0,
+        "desc": "Stand by the door"
+    },
+    {
+        "name": "Grind Staff",
+        "training": 1,
+        "shadowing": 0,
+        "desc": "Who even knows"
+    },
+    {
+        "name": "Transition",
+        "training": 1,
+        "shadowing": 0,
+        "desc": "Basically you\"re strike. "
+    },
+    {
+        "name": "Workshop-Cashier",
+        "training": 1,
+        "shadowing": 0,
+        "desc": "Most people pay in advance."
+    },
+    {
+        "name": "Workshop-EC",
+        "training": 1,
+        "shadowing": 0,
+        "desc": "check the checklists, hand out surveys afterward"
+    },
+    {
+        "name": "Chef",
+        "training": 1,
+        "shadowing": 0,
+        "desc": "cook your ass off"
+    },
+    {
+        "name": "Facilitator",
+        "training": 1,
+        "shadowing": 0,
+        "desc": "combo of ambassador and monitor"
+    },
+    {
+        "name": "Service Facilitator",
+        "training": 1,
+        "shadowing": 0,
+        "desc": "keep the servers in line"
+    }
+]
