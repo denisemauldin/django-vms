@@ -7,6 +7,13 @@ from django.conf.urls.static import static
 from django.contrib import admin
 from django.views.generic import TemplateView
 from django.views import defaults as default_views
+from schedule.views import (
+    CalendarByPeriodsView, CalendarView, EventView,
+    OccurrenceView, EditOccurrenceView, DeleteEventView,
+    EditEventView, CreateEventView, OccurrencePreview,
+    CreateOccurrenceView, CancelOccurrenceView, FullCalendarView,
+    api_select_create, api_move_or_resize_by_code, api_occurrences)
+
 
 urlpatterns = [
     url(r'^$', TemplateView.as_view(template_name='pages/home.html'), name='home'),
@@ -22,7 +29,6 @@ urlpatterns = [
     # Your stuff: custom urls includes go here
     url(r'^fullcalendar/', TemplateView.as_view(template_name="fullcalendar.html"), name='fullcalendar'),
     url(r'^schedule/', include('schedule.urls')),
-
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 if settings.DEBUG:

@@ -49,6 +49,8 @@ LOCAL_APPS = (
     # custom users app
     'vms.users.apps.UsersConfig',
     # Your stuff: custom apps go here
+    'vms.locations',
+    'vms.cspcevents',
 )
 
 # See: https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
