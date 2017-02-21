@@ -12,6 +12,14 @@ class Migration(migrations.Migration):
     dependencies = [
     ]
 
+    def load_data(apps, schema_editor):
+        from django.core.management import call_command
+        call_command("loaddata", "locations", )
+
+    def unload_data(apps, schema_editor):
+        loc = apps.get_model("locations", "Location")
+        loc.objects.all().delete()
+
     operations = [
         migrations.CreateModel(
             name='Location',
@@ -20,4 +28,5 @@ class Migration(migrations.Migration):
                 ('name', models.CharField(max_length=50)),
             ],
         ),
+        migrations.RunPython(load_data, reverse_code=unload_data)
     ]

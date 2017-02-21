@@ -23,7 +23,7 @@ class Command(BaseCommand):
 
     def handle(self, **options):
         from schedule.models import Calendar
-        from schedule.models import Event
+        from vms.cspcevents.models import CSPCEvent
         from schedule.models import Rule
 
         print("checking for existing data ...")
@@ -73,7 +73,7 @@ class Command(BaseCommand):
             'rule': monthly_rule,
             'calendar': cal
         }
-        event = Event(**data)
+        event = CSPCEvent(**data)
         event.save()
 
         third_friday = day_instance(today.year, today.month, calendar.FRIDAY, 3)
@@ -86,7 +86,7 @@ class Command(BaseCommand):
             'rule': monthly_rule,
             'calendar': cal
         }
-        event = Event(**data)
+        event = CSPCEvent(**data)
         event.save()
 
         first_wednesday = day_instance(today.year, today.month, calendar.WEDNESDAY, 1)
@@ -99,5 +99,5 @@ class Command(BaseCommand):
             'rule': weekly_rule,
             'calendar': cal
         }
-        event = Event(**data)
+        event = CSPCEvent(**data)
         event.save()

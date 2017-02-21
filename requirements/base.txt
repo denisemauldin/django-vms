@@ -41,7 +41,7 @@ django-redis==4.7.0
 redis>=2.10.5
 
 # calendar
-django-scheduler==0.8.2
+django-scheduler==0.8.3
 
 
 # Your custom requirements go here

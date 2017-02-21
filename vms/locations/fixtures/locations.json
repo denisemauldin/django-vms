@@ -1,0 +1,9 @@
+[
+	{
+		"model": "locations.location",
+		"pk": 1,
+		"fields": {
+			"name": "Main Space"
+		}
+	}
+]
